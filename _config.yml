@@ -1,0 +1,17 @@
+---
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+name:		 "Cypiripi"
+title:       "Cypiripi: exact genotyping of CYP2D6 using High Throughput Sequencing Data"
+keywords:    "cyp2d6, cyp2d7, genotyping, cplex"
+description: "A tool for finding out the CYP2D6/CYP2D7 genotypes in the HTS reads"
+source_link: "http://sfu-compbio.github.io/cypiripi/"
