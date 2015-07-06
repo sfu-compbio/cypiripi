@@ -340,13 +340,6 @@ a.buttons:hover {
     padding-left: 1em; 
 }
 
-#arguments > ul > li:before {
-  content: "v"; 
-  font-family:"Wingdings"; 
-  padding: 0;
-  margin: 0;
-}
-
 #arguments > ul > li > p:first-child {
   display: inline;
   padding-left: 15px;
