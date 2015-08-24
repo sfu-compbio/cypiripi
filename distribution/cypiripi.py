@@ -88,6 +88,8 @@ def cleanup():
 		for l in f:
 			l = l.strip()
 			p = l.split('\t')
+			if len(p) < 4:
+				continue
 			if int(p[3]) < 1490 or int(p[3]) > 5825 - 30:
 				if p[0] in s6 and p[0] in s7:
 					c = X
