@@ -87,6 +87,8 @@ def cleanup():
 		X,Y=0,0
 		for l in f:
 			l = l.strip()
+			if l[0] == '@':
+				continue
 			p = l.split('\t')
 			if len(p) < 4:
 				continue
