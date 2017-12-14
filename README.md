@@ -1,3 +1,11 @@
+
+# Cypiripi has been discontinued and deprecated in favor of [Aldy](http://aldy.csail.mit.edu).
+
+Aldy is much more capable than Cypiripi and covers all aspect of the original algorithm.
+This reporitory is purely for archival purposes. No support requests will be handled anymore.
+
+----
+
 # Cypiripi
 
 Cypiripi is a computational tool for *CYP2D6* genotyping.
