@@ -1,8 +1,26 @@
 
-# Cypiripi has been discontinued and deprecated in favor of [Aldy](http://aldy.csail.mit.edu).
+# Cypiripi has been discontinued and deprecated in favor of [Aldy](https://github.com/inumanag/aldy). 
 
 Aldy is much more capable than Cypiripi and covers all aspect of the original algorithm.
-This reporitory is purely for archival purposes. No support requests will be handled anymore.
+This repository is purely for archival purposes. No support requests will be handled anymore.
+
+----
+
+I am finally releasing source code for this project--- mainly for
+archival purposes. It's licensed under
+[CRAPL license](http://matt.might.net/articles/crapl/), which best
+describes its development process and the resulting source code quality (please
+don't ask me how to compile it or how to use those scripts in `util` folder). 
+
+As for the original simulations used in the paper, I lost original FASTQ and SAM files
+(they probably disappeared when somebody asked me to clean up my
+multi-TB home directory on the shared cluster, and only later I realized that 
+the purge was too successful). Sorry for that... 
+
+Anyways, if you really need this, good luck (really)! I highly recommend anybody who needs to get the job done to use
+[Aldy](http://aldy.csail.mit.edu), which basically started as an attempt to "fix" 
+Cypiripi (hopeless attempt, as it turned out), and which can 
+do anything Cypiripi currently does in a way more reproducible and stable manner.
 
 ----
 
